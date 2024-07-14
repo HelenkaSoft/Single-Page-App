@@ -16,3 +16,7 @@ body {
 .a {
   color: #3dc2ec;
 }
+
+.active {
+  color: #a8a6ba;
+}
