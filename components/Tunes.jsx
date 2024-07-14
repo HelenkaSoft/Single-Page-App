@@ -1,5 +1,3 @@
-import React from "react";
-
 const Tunes = () => {
   return (
     <div className="home">
