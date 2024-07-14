@@ -30,3 +30,14 @@ body {
   border-radius: 2rem;
   border: 2px solid white;
 }
+
+.home {
+  background-color: #444258;
+  border-radius: 1rem;
+  padding: 3rem;
+  margin-top: 3rem;
+}
+
+.home p {
+  margin-top: 3rem;
+}
