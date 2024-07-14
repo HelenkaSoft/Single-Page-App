@@ -19,7 +19,7 @@ function App() {
       </header>
       <main className="content">
         <Routes>
-          <Route path="/" element={<h1>HomePage</h1>} exact />
+          <Route path="/" element={<h1>HomePage</h1>} />
           <Route path="tunes" element={<h1>Tunes</h1>} />
           <Route path="/about" element={<h1>About</h1>} />
         </Routes>
