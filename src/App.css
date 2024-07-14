@@ -10,13 +10,22 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: #4c3bcf;
-  color: #3dc2ec;
+  color: #b8dbe5;
+  letter-spacing: 0.05rem;
 }
 
 .a {
-  color: #3dc2ec;
+  color: white;
+  padding: 0 0.5em;
 }
 
 .active {
-  color: #a8a6ba;
+  color: #948ec6;
+}
+
+.navigation {
+  letter-spacing: 0.1rem;
+  background-color: rgb(65, 78, 111);
+  padding: 1rem;
+  border-radius: 2rem;
 }

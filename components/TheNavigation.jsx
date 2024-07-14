@@ -3,7 +3,7 @@ import React from "react";
 
 function TheNavigation() {
   return (
-    <nav>
+    <nav className="navigation">
       <NavLink to="/" className="a">
         Home
       </NavLink>
