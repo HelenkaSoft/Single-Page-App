@@ -36,6 +36,8 @@ body {
   border-radius: 1rem;
   padding: 3rem;
   margin-top: 3rem;
+  max-width: 20rem;
+  overflow: hidden;
 }
 
 .home p {
