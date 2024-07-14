@@ -9,6 +9,10 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgb(36, 77, 118);
-  color: rgb(108, 171, 115);
+  background-color: #4c3bcf;
+  color: #3dc2ec;
+}
+
+.a {
+  color: #3dc2ec;
 }
