@@ -1,4 +1,5 @@
 import { useState } from "react";
+import TunesList from "./Tuneslist";
 
 const Tunes = () => {
   const [search, setsearch] = useState("");
@@ -39,11 +40,7 @@ const Tunes = () => {
       <form onSubmit={handlesubmit}>
         <input type="text" value={search} onChange={handlesearch} />
       </form>
-      <ul>
-        {songs.map((e) => (
-          <li key={e.id}>{JSON.stringify(e)}</li>
-        ))}
-      </ul>
+      <TunesList songs={songs} name="Dodo" />
     </div>
   );
 };
